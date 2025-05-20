@@ -1,0 +1,18 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+header {
+  font-size: larger;
+  text-align: center;
+}
+header h1 {
+  color: red;
+}
+
+ul {
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */
