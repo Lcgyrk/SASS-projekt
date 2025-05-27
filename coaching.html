@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coaching Jelentkezés – Pali bá'</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="home.html">Főoldal</a></li>
+      <li><a href="pali.html">Történetem</a></li>
+      <li><a href="coaching.html">Coaching</a></li>
+      <li><a href="faq.html">GYIK</a></li>
+      <li><a href="tips.html">Tippek</a></li>
+      <li><a href="halloffame.html">Hall of Fame</a></li>
+      <li><a href="#kapcsolat">Kapcsolat</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>📩 Coaching Jelentkezés</h1>
+    <p class="subtitle">Töltsd ki az alábbi űrlapot, és kezdődik a grind!</p>
+  </header>
+
+  <section class="form-section">
+    <form action="submit.html" method="POST">
+      <label for="name">Név:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email cím:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="package">Válassz csomagot:</label>
+      <select id="package" name="package" required>
+        <option value="">-- Válassz --</option>
+        <option value="basic">🥉 Alap csomag – 1 óra coaching</option>
+        <option value="pro">🥈 Pro csomag – 3 órás technikai fejlesztés</option>
+        <option value="legend">🥇 Legend csomag – 5 óra + VOD elemzés</option>
+      </select>
+
+      <label for="message">Üzenet / Extra infó:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit" class="button">Jelentkezem</button>
+    </form>
+  </section>
+
+  <footer id="kapcsolat">
+    <p>📧 <a href="mailto:palbognar@fortcoach.gg">palbognar@fortcoach.gg</a> | TikTok: <a href="https://www.tiktok.com/explore">@bognarpalfortnitegod</a></p>
+    <p>&copy; 2025 Bognár Pál – Fortnite Coach</p>
+  </footer>
+</body>
+</html>
